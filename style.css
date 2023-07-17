@@ -6,6 +6,142 @@
     font-family: "GothamRounded";
     src: url("fonts/GothamRounded.otf");
 }
+* {
+    font-family: "GothamRounded";
+}
+.logo {
+    margin: 18px;
+    float: left;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0000ff;
+  }
+header {
+    background-color: #009bff;
+    height: 180px;
+    width: 100%;
+  }
+
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  #name {
+    text-decoration: none;
+    color: #0000ff;
+    position: absolute;
+    right: 20px;
+    padding-top: 30px;
+    font-size: 80px;
+    float: right;
+  }
+
+  nav {
+    margin-bottom: 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0000ff;
+    display: inline;
+    position: relative;
+    left: 30px;
+    top: 125px;
+    font-size: 25px;
+  }
+
+
+  
+  nav a:hover {
+    color: #ffffff;
+  }
+
+  #open {
+    color: #ffffff;
+  }
+  
+
+
+  .dropdown {
+    overflow: hidden;
+    text-decoration: none;
+    color: #0000ff;
+    display: inline;
+    position: relative;
+    left: 30px;
+    top: 125px;
+    font-size: 25px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: #0000ff;
+    padding: 14px 16px;
+    background-color: inherit;
+
+  }
+
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    background-color: #0000ff;
+    height: 115px;
+    min-width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #009bff;
+    top:10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    color: #ffffff;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .auftrag {
+    color: #009bff;
+    background-color: #0000ff;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 15px;
+    font-size: 40px;
+    position: absolute;
+    top: 25px;
+    left: 230px;
+  }
+  .auftrag:hover {
+    color: #ffffff;
+  }
+
+
+
 body {
     background-color: #009BFF;
     margin: 0;
