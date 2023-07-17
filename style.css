@@ -100,7 +100,7 @@ nav a:hover {
 #dropdown:hover #dropdown-content {
 	display: block;
 }
-.auftrag {
+#auftrag-button {
 	color: #009bff;
 	background-color: #0000ff;
 	text-decoration: none;
