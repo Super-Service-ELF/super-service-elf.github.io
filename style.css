@@ -1,14 +1,42 @@
+@font-face {
+    font-family: "GothamRounded-Bold";
+    src: url("fonts/GothamRounded-Bold.otf");
+}
+@font-face {
+    font-family: "GothamRounded";
+    src: url("fonts/GothamRounded.otf");
+}
 body {
+    background-color: #009BFF;
+    margin: 0;
+    font-family: GothamRounded;
+}
+#header {
+    position: fixed;
+    top: 0;
+    height: 128px;
+
+}
+#footer {
+    top: 0;
+    height: 128px;
+}
+header, footer {
+    background-color: #009BFF;
+    padding: 16px;
+    height: 128px;
+
+}
+main {
+    background-color: blue;
+}
+#menu ul li {
+    display: inline-block;
+}
+iframe {
     width: 100%;
     margin: 0;
-}
-
-#div1 {
-    background-color: rgb(191, 255, 0);
-    width: 100%;
-}
-
-#div2 {
-    background-color: blue;
-    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
 }
