@@ -1,24 +1,38 @@
 <!DOCTYPE html>
+<html lang="de">
 <html>
 	<head>
 		<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/images/logo.png">
 	</head>
 	<body>
 		<header>
-            <h1>Super-Service-ELF</h1>
-            <h1>Super-Service-ELF</h1>
-            <nav id="menu">
-                <ul>
-                    <li>Über</li>
-                    <li>Newsletter</li>
-                    <li>Geschichte</li>
-                    <li>Bewerten</li>
-                    <li>Newsletter-Archiv</li>
-                    <button>"Auftrag aufgeben"</button>
-                </ul>
-            </nav>
-        </header>
+        <a href="/"><img class="logo" height="80%" src="/images/logo.png" alt="logo"></a>
+        <a id="name">Super-Service-ELF</a>
+        <a class="auftrag" href="/auftrag/">Auftrag aufgeben</a>
+        <nav>
+
+            <ul class="navbar">
+                <li><a id="open" href="/">Home</a></li>
+                <li><a href="/ueber/">Über</a></li>
+                <li><a href="/newsletter/">Newsletter</a></li>
+                <li><a href="/newsletter-archiv/">Newsletter-Archiv</a></li>
+                <li><a href="/geschichte/">Geschichte</a></li>
+                <li><a href="/bewerten/">Bewerten</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Mehr</button>
+                    <div class="dropdown-content">
+                      <a href="/nutzungsbedingungen/">Nutzungsbedingungen</a>
+                      <a href="/datenschutz/">Datenschutz</a>
+                      <a href="/impressum/">Impressum</a>
+                    </div>
+                </div>
+
+
+            </ul>
+        </nav>
+    </header>
 	</body>
 </html>
