@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family: "GothamRounded-Bold";
 	src: url("fonts/GothamRounded-Bold.otf");
@@ -8,14 +9,12 @@
 }
 * {
 	font-family: "GothamRounded";
-	margin: 0;
-	padding: 0;
 }
 #logo {
-	height: "80%";
-	margin: 18px;
-	float: left;
+    margin: 18px;
+    float: left;
 }
+
 header {
 	background-color: #009bff;
 	height: 180px;
@@ -50,6 +49,7 @@ nav a {
 	left: 30px;
 	top: 125px;
 	font-size: 25px;
+	cursor: pointer;
 }
 nav a:hover {
 	color: #ffffff;
@@ -82,7 +82,7 @@ nav a:hover {
 	right: 0px;
 	background-color: #0000ff;
 	height: 115px;
-	min-width: 280px;
+	width: 350px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
@@ -115,25 +115,20 @@ nav a:hover {
 	color: #ffffff;
 }
 body {
-	background-color: #009BFF;
+	background-color: #009bff;
 	margin: 0;
 	font-family: GothamRounded;
 }
 #header {
 	position: fixed;
 	top: 0;
-	height: 128px;
+	height: 185px;
 }
 #footer {
 	top: 0;
 	height: 128px;
 }
-header, footer {
-	background-color: #009BFF;
-	padding: 16px;
-	height: 128px;
 
-}
 main {
 	background-color: blue;
 }
