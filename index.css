@@ -1,29 +1,40 @@
-
 @font-face {
 	font-family: "GothamRounded-Bold";
-	src: url("fonts/GothamRounded-Bold.otf");
+	src: url("/fonts/GothamRounded-Bold.otf");
 }
 @font-face {
 	font-family: "GothamRounded";
-	src: url("fonts/GothamRounded.otf");
+	src: url("/fonts/GothamRounded.otf");
 }
 * {
 	font-family: "GothamRounded";
 }
+html,body {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #0000ff;
+}
+
 #logo {
     margin: 18px;
     float: left;
+	width: 144px;
+	height: 144px;
 }
 
 header {
 	background-color: #009bff;
 	height: 180px;
 	width: 100%;
+	margin-top: 0px;
 }
 nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	display:inline;
 }
 #name {
 	text-decoration: none;
@@ -80,7 +91,7 @@ nav a:hover {
 	position: absolute;
 	top: 40px;
 	right: 0px;
-	background-color: #0000ff;
+	background-color: #009bff;
 	height: 115px;
 	width: 350px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -88,7 +99,7 @@ nav a:hover {
 }
 #dropdown-content a {
 	float: none;
-	color: #009bff;
+	color: #0000ff;
 	top:10px;
 	text-decoration: none;
 	display: block;
@@ -114,31 +125,111 @@ nav a:hover {
 #auftrag-button:hover {
 	color: #ffffff;
 }
-body {
-	background-color: #009bff;
-	margin: 0;
-	font-family: GothamRounded;
-}
-#header {
-	position: fixed;
-	top: 0;
-	height: 185px;
-}
-#footer {
-	top: 0;
-	height: 128px;
+
+footer {
+    background-color:#009bff;
+    padding: 10px;
 }
 
-main {
-	background-color: blue;
+footer a {
+    text-decoration: none;
+    color: #0000ff;
 }
+
 #menu ul li {
 	display: inline-block;
 }
-iframe {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	border: none;
-	outline: none;
+
+#mobile-menu-button {
+	display: none;
 }
+
+@media screen and (max-width: 1400px) {
+
+
+	nav ul {
+		width: 100%;
+		position: absolute;
+		padding-top: 0;
+		display: none;
+	}
+
+	nav ul li {
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#dropdown-button {
+		display: none;
+	}
+
+	#dropdown-content {
+		display: block;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	#name {
+		display: none;
+	}
+	#logo {
+		display: block;
+		padding: 10px;
+		float: none;
+        margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		transform: translateX(-50%);
+		height: 144px;
+		width: 144px;
+		width: auto;
+	}
+
+	header {
+		background-color: #009bff;
+		height: 180px;
+		width: 100%;
+		margin-top: 0px;
+		transition: 0.2s;
+	}
+
+	#auftrag-button {
+		color: #009bff;
+		background-color: white;
+		text-decoration: none;
+		height: fit-content;
+		border-radius: 40px;
+		font-size: 40px;
+		position: fixed;
+		bottom: 20px;
+		right: auto;
+		top: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 2;
+	}
+	#auftrag-button:hover {
+		color: blue;
+	}
+	#mobile-menu-button {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		cursor: pointer;
+		user-select: none;
+	}
+	nav a {
+		top: 0;
+	}
+	#dropdown {
+		top: 30px;
+	}
+
+
+
+  }
