@@ -1,41 +1,28 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super-Service-ELF</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="/images/logo.png">
-</head>
-<body>
-    <header id = "headerheader">
-        <a href="/"><img id="logo" height="80%" src="/images/logo.png" alt="logo"></a>
-        <a id="name">Super-Service-ELF</a>
-        <a id="auftrag-button" class = "link" href="/auftrag/">Auftrag aufgeben</a>
-        <nav>
-            <ul id="navbar">
-                <li class = "link"><a id="open" href="/">Home</a></li>
-                <li class = "link"><a href="/ueber/">Über</a></li>
-                <li class = "link"><a href="/newsletter/">Newsletter</a></li>
-                <li class = "link"><a href="/newsletter-archiv/">Newsletter-Archiv</a></li>
-                <li class = "link"><a href="/geschichte/">Geschichte</a></li>
-                <li class = "link"><a href="/bewerten/">Bewerten</a></li>
-                <div id="dropdown">
-                    <button class = "link" id="dropdown-button">Mehr</button>
-                    <div id="dropdown-content">
-                      <a href="/nutzungsbedingungen/">Nutzungsbedingungen</a>
-                      <a href="/datenschutz/">Datenschutz</a>
-                      <a href="/impressum/">Impressum</a>
-                    </div>
-                </div>
+<a href="/" style="cursor: unset;"><img id="logo" height="80%" src="/images/logo.png" alt="logo"></a>
+<a id="name">Super-Service-ELF</a>
+<nav>
+    <ul id="navbar">
+        <li class = "link"><a href="/">Home</a></li>
+        <li class = "link"><a href="/ueber/">Über</a></li>
+        <li class = "link"><a href="/newsletter/">Newsletter</a></li>
+        <li class = "link"><a href="/newsletter-archiv/">Newsletter-Archiv</a></li>
+        <li class = "link"><a href="/geschichte/">Geschichte</a></li>
+        <li class = "link"><a href="/bewerten/">Bewerten</a></li>
+        <div id="dropdown">
+            <button class = "link" id="dropdown-button">Mehr</button>
+            <div id="dropdown-content">
+                <a href="/nutzungsbedingungen/">Nutzungsbedingungen</a>
+                <a href="/datenschutz/">Datenschutz</a>
+                <a href="/impressum/">Impressum</a>
+            </div>
+        </div>
 
-
-            </ul>
-        </nav>
-    </header>
-
-
-    <script src="/index.js"></script> 
-
-</body>
-</html>
+        
+    </ul>
+</nav>
+<svg viewBox="0 0 100 80" width="40" height="40" id = "mobile-menu-button" onclick="togglemenu()">
+    <rect width="100" height="10"></rect>
+    <rect y="30" width="100" height="10"></rect>
+    <rect y="60" width="100" height="10"></rect>
+</svg>
+<a id="auftrag-button" class = "link" href="/auftrag/">Auftrag aufgeben</a> 
