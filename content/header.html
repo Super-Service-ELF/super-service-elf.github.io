@@ -1,37 +1,41 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="/style.css">
-	</head>
-	<body>
-		<header>
-			<a href="/">
-				<img id="logo" src="/images/logo.png" alt="Logo des Super-Service-ELF">
-				<h1>Super-Service-ELF</h1>
-			</a>
-			<nav>
-				<ul id="navbar">
-					<a href="/"><li>Start</li></a>
-					<a href="/ueber"><li>Über</li></a>
-					<a href="/newsletter"><li>Newsletter</li></a>
-					<a href="/geschichte"><li>Geschichte</li></a>
-					<a href="/bewerten"><li></li>Bewerten</a>
-					<a href="/newsletter-archiv"><li>Newsletter-Archiv</li></a>
-					<div id="dropdown">
-						<button id="dropdown-button">Mehr</button>
-						<div id="dropdown-content">
-							<ul>
-								<a href="/nutzungsbedingungen"><li>Nutzungsbedingungen</li></a>
-								<a href="/datenschutz"><li>Datenschutz</li></a>
-								<a href="/impressum"><li>Impressum</li></a>
-							</ul>
-						</div>
-					</div>
-				</ul>
-			</nav>
-			<a href="/auftrag"><button id="auftrag-button">Auftrag aufgeben</button></a>
-		</header>
-	</body>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super-Service-ELF</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/images/logo.png">
+</head>
+<body>
+    <header id = "headerheader">
+        <a href="/"><img id="logo" height="80%" src="/images/logo.png" alt="logo"></a>
+        <a id="name">Super-Service-ELF</a>
+        <a id="auftrag-button" class = "link" href="/auftrag/">Auftrag aufgeben</a>
+        <nav>
+            <ul id="navbar">
+                <li class = "link"><a id="open" href="/">Home</a></li>
+                <li class = "link"><a href="/ueber/">Über</a></li>
+                <li class = "link"><a href="/newsletter/">Newsletter</a></li>
+                <li class = "link"><a href="/newsletter-archiv/">Newsletter-Archiv</a></li>
+                <li class = "link"><a href="/geschichte/">Geschichte</a></li>
+                <li class = "link"><a href="/bewerten/">Bewerten</a></li>
+                <div id="dropdown">
+                    <button class = "link" id="dropdown-button">Mehr</button>
+                    <div id="dropdown-content">
+                      <a href="/nutzungsbedingungen/">Nutzungsbedingungen</a>
+                      <a href="/datenschutz/">Datenschutz</a>
+                      <a href="/impressum/">Impressum</a>
+                    </div>
+                </div>
+
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <script src="/index.js"></script> 
+
+</body>
 </html>
