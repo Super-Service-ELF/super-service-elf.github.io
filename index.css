@@ -6,6 +6,17 @@
 	font-family: "GothamRounded";
 	src: url("/fonts/GothamRounded.otf");
 }
+
+@keyframes rotate90 {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(90deg);}
+  }
+
+@keyframes rotate0 {
+	from {transform: rotate(90deg);}
+	to {transform: rotate(180deg);}
+}
+
 * {
 	font-family: "GothamRounded";
 }
@@ -14,7 +25,7 @@ html,body {
     padding:0;
 }
 body {
-    background-color: #0000ff;
+    background-color: #009bff;
 }
 
 #logo {
@@ -23,6 +34,28 @@ body {
 	width: 144px;
 	height: 144px;
 }
+
+
+#testdiv {
+	background-color: #0000ff;
+}
+
+h2 {
+	text-align: center;
+	color: #009bff;
+	font-size: 50px;
+	margin: 0;
+	padding-top: 40px;
+}
+
+p {
+	text-align: center;
+	margin: 0;
+	padding: 16px;
+	color: #009bff;
+}
+
+
 
 header {
 	background-color: #009bff;
@@ -129,11 +162,28 @@ nav a:hover {
 footer {
     background-color:#009bff;
     padding: 10px;
+	height: 100%;
+}
+
+footer h2 {
+	text-align: left;
+	color: black;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+footer p {
+	text-align: left;
+	margin: 0px;
+	padding: 7px;
 }
 
 footer a {
     text-decoration: none;
     color: #0000ff;
+}
+footer a:hover {
+    color: #ffffff;
 }
 
 #menu ul li {
