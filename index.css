@@ -223,6 +223,7 @@ footer a:hover {
 	nav ul {
 		width: 100%;
 		position: absolute;
+		top:144px;
 		padding-top: 0;
 		display: none;
 	}
@@ -254,8 +255,8 @@ footer a:hover {
 		padding: 10px;
 		float: none;
         margin: 0;
-		margin-left: auto;
-		margin-right: auto;
+		position: absolute;
+		left: 50%;
 		transform: translateX(-50%);
 		height: 144px;
 		width: 144px;
@@ -275,6 +276,7 @@ footer a:hover {
 		background-color: white;
 		text-decoration: none;
 		height: fit-content;
+		width: 355px;
 		border-radius: 40px;
 		font-size: 40px;
 		position: fixed;
@@ -283,7 +285,7 @@ footer a:hover {
 		top: auto;
 		left: 50%;
 		transform: translateX(-50%);
-		z-index: 2;
+		z-index: 100;
 	}
 	#auftrag-button:hover {
 		color: blue;
