@@ -2,7 +2,6 @@
 	font-family: "GothamRounded-Bold";
 	src: url("/fonts/GothamRounded-Bold.otf");
 }
-
 @font-face {
 	font-family: "GothamRounded";
 	src: url("/fonts/GothamRounded.otf");
@@ -11,8 +10,7 @@
 @keyframes rotate90 {
 	from {transform: rotate(0deg);}
 	to {transform: rotate(90deg);}
-  }
-
+}
 @keyframes rotate0 {
 	from {transform: rotate(90deg);}
 	to {transform: rotate(180deg);}
@@ -22,7 +20,7 @@
 	font-family: "GothamRounded";
 }
 
-html,body {
+html, body {
     margin:0;
     padding:0;
 }
@@ -304,7 +302,5 @@ footer a:hover {
 	#dropdown {
 		top: 30px;
 	}
-
-
 
   }
