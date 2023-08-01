@@ -1,14 +1,14 @@
-var xhr= new XMLHttpRequest();
-xhr.open('GET', '/content/header.html', true);
-xhr.onreadystatechange= function() {
-    document.getElementById('header').innerHTML= this.responseText;
-};
-xhr.send();
-
-
-var xhr= new XMLHttpRequest();
-xhr.open('GET', '/content/footer.html', true);
-xhr.onreadystatechange= function() {
-    document.getElementById('footer').innerHTML= this.responseText;
-};
-xhr.send();
+function loadExternalHTML(targetID) {
+    var url = "content/" + targetID + ".html";
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+            var target = document.getElementById(targetID);
+            target.innerHTML = xhr.responseText;
+        }
+    };
+    xhr.open("GET", url, true);
+    xhr.send();
+}
+loadExternalHTML("header");
+loadExternalHTML("footer");
