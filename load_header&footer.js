@@ -1,5 +1,5 @@
 function loadExternalHTML(targetID) {
-    var url = "content/" + targetID + ".html";
+    var url = "/content/" + targetID + ".html";
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
