@@ -10,8 +10,11 @@ function loadExternalHTML(targetID) {
     xhr.open("GET", url, true);
     xhr.send();
 }
-loadExternalHTML("header");
-loadExternalHTML("footer");
+function loadExternalHTMLs(targetIDs) {
+    for (let targetID of targetIDs) {
+        loadExternalHTML(targetID);
+    }
+}
 function togglemenu() {
     if (navbar.style.display == "") {
         navbar.style.display = "block";
