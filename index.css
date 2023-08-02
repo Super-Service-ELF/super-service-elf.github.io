@@ -48,8 +48,8 @@ p {
 	color: #009bff;
 }
 
-header {
-	background-color: #009bff;
+header, footer {
+	background-color:#009bff;
 }
 
 nav ul {
@@ -111,10 +111,6 @@ nav a:hover {
 }
 #auftrag-button:hover {
 	color: #ffffff;
-}
-
-footer {
-    background-color:#009bff;
 }
 
 footer h2 {
