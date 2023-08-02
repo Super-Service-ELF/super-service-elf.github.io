@@ -18,6 +18,7 @@
 
 * {
 	font-family: "GothamRounded";
+	text-decoration: none;
 }
 
 body {
@@ -71,7 +72,6 @@ nav ul {
 }
 
 #name {
-	text-decoration: none;
 	color: #0000ff;
 	position: absolute;
 	right: 20px;
@@ -90,7 +90,6 @@ li {
 }
 
 nav a {
-	text-decoration: none;
 	color: #0000ff;
 	display: inline;
 	position: relative;
@@ -130,7 +129,6 @@ footer p {
 }
 
 footer a {
-    text-decoration: none;
     color: #0000ff;
 }
 
