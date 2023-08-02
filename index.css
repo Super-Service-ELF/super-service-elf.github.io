@@ -67,6 +67,9 @@ a:hover {
 header, footer {
 	background-color:#009DFF;
 }
+div {
+	background-color: #80CEFF;
+}
 
 header {
 	height: 180px;
