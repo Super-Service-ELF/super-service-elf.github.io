@@ -50,9 +50,6 @@ p {
 
 header {
 	background-color: #009bff;
-	height: 180px;
-	width: 100%;
-	margin-top: 0px;
 }
 
 nav ul {
@@ -118,8 +115,6 @@ nav a:hover {
 
 footer {
     background-color:#009bff;
-    padding: 10px;
-	height: 100%;
 }
 
 footer h2 {
