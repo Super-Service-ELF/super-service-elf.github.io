@@ -100,7 +100,6 @@ nav {
 
 li {
 	display: inline;
-	padding: 15px;
 }
 
 nav a {
@@ -130,7 +129,6 @@ nav a {
 
 footer h2 {
 	text-align: left;
-	font-size: 30px;
 	padding-bottom: 20px;
 }
 
