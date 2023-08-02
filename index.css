@@ -33,6 +33,9 @@ body {
 	width: 128px;
 	height: 128px;
 }
+h1, h2, h3 {
+	font-family: "GothamRounded-Bold";
+}
 
 h2 {
 	text-align: center;
