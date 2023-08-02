@@ -36,17 +36,18 @@ body {
 
 h2 {
 	text-align: center;
-	color: #009bff;
 	font-size: 50px;
 	margin: 0;
 	padding-top: 40px;
 }
 
 p {
+h1, h2, h3, p, a, button {
+	color: #FFFFFF;
 	text-align: center;
 	margin: 0;
 	padding: 16px;
-	color: #009bff;
+}
 a:hover {
 	color: #000000;
 }
@@ -72,7 +73,6 @@ nav ul {
 }
 
 #name {
-	color: #0000ff;
 	position: absolute;
 	right: 20px;
 	padding-top: 30px;
@@ -90,7 +90,6 @@ li {
 }
 
 nav a {
-	color: #0000ff;
 	display: inline;
 	position: relative;
 	left: 30px;
@@ -117,7 +116,6 @@ nav a {
 
 footer h2 {
 	text-align: left;
-	color: black;
 	font-size: 30px;
 	padding-bottom: 20px;
 }
@@ -128,9 +126,6 @@ footer p {
 	padding: 7px;
 }
 
-footer a {
-    color: #0000ff;
-}
 
 #menu ul li {
 	display: inline-block;
