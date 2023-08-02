@@ -106,10 +106,8 @@ nav a {
 	color: #ffffff;
 }
 
-#auftrag-button {
-	color: #009bff;
-	background-color: #0000ff;
-	text-decoration: none;
+#button {
+	background-color: #004f80;
 	border-radius: 40px;
 	padding: 15px;
 	font-size: 40px;
@@ -184,10 +182,7 @@ footer a {
 		transition: 0.2s;
 	}
 
-	#auftrag-button {
-		color: #009bff;
-		background-color: white;
-		text-decoration: none;
+	#button {
 		height: fit-content;
 		width: 355px;
 		border-radius: 40px;
@@ -199,9 +194,6 @@ footer a {
 		left: 50%;
 		transform: translateX(-50%);
 		z-index: 100;
-	}
-	#auftrag-button:hover {
-		color: blue;
 	}
 	#mobile-menu-button {
 		display: block;
