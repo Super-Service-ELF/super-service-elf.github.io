@@ -52,6 +52,14 @@ header, footer {
 	background-color:#009bff;
 }
 
+header {
+	height: 180px;
+}
+
+footer {
+    padding: 10px;
+}
+
 nav ul {
 	list-style: none;
 	padding: 0;
