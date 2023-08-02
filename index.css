@@ -97,7 +97,6 @@ nav a:hover {
 	color: #ffffff;
 }
 
-
 #auftrag-button {
 	color: #009bff;
 	background-color: #0000ff;
@@ -152,7 +151,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1400px) {
-
 
 	nav ul {
 		width: 100%;
