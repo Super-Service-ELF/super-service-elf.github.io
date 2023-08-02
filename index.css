@@ -37,19 +37,14 @@ h1, h2, h3 {
 	font-family: "GothamRounded-Bold";
 }
 
-h1 {
-	font-size: 64px;
-	padding: 32px;
-}
-h2 {
+h1, #name {
 	font-size: 48px;
 	padding: 24px;
 }
-h3 {
+h2, #button {
 	font-size: 32px;
 	padding: 16px;
 }
-
 p, a {
 	font-size: 16px;
 	padding: 8px;
@@ -89,7 +84,6 @@ nav ul {
 	position: absolute;
 	right: 20px;
 	padding-top: 30px;
-	font-size: 80px;
 	float: right;
 }
 
