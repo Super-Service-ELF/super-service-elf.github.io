@@ -58,8 +58,6 @@ p, a {
 h1, h2, h3, p, a, button {
 	color: #FFFFFF;
 	text-align: center;
-	margin: 0;
-	padding: 16px;
 }
 a:hover {
 	color: #000000;
