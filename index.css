@@ -33,7 +33,7 @@ body {
 	width: 128px;
 	height: 128px;
 }
-h1, h2, h3 {
+h1, h2, h3, #button, #name {
 	font-family: "GothamRounded-Bold";
 }
 
@@ -44,6 +44,10 @@ h1, #name {
 h2, #button {
 	font-size: 32px;
 	padding: 16px;
+}
+h3, #navigationBar a {
+	font-size: 24px;
+	padding: 12px;
 }
 p, a {
 	font-size: 16px;
@@ -100,7 +104,6 @@ nav a {
 	position: relative;
 	left: 30px;
 	top: 125px;
-	font-size: 25px;
 	cursor: pointer;
 }
 
@@ -108,7 +111,6 @@ nav a {
 	background-color: #004F80;
 	border-radius: 40px;
 	padding: 15px;
-	font-size: 40px;
 	position: absolute;
 	top: 25px;
 	left: 230px;
