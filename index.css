@@ -46,6 +46,9 @@ p {
 	margin: 0;
 	padding: 16px;
 	color: #009bff;
+a:hover {
+	color: #000000;
+}
 }
 
 header, footer {
@@ -97,9 +100,7 @@ nav a {
 	cursor: pointer;
 }
 
-nav a:hover {
-	color: #ffffff;
-}
+
 
 #open {
 	color: #ffffff;
@@ -115,9 +116,6 @@ nav a:hover {
 	position: absolute;
 	top: 25px;
 	left: 230px;
-}
-#auftrag-button:hover {
-	color: #ffffff;
 }
 
 footer h2 {
@@ -137,9 +135,6 @@ footer a {
     text-decoration: none;
     color: #0000ff;
 }
-footer a:hover {
-    color: #ffffff;
-}
 
 #menu ul li {
 	display: inline-block;
@@ -147,15 +142,6 @@ footer a:hover {
 
 #mobile-menu-button {
 	display: none;
-}
-
-.link {
-	-webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
 }
 
 @media screen and (max-width: 1400px) {
