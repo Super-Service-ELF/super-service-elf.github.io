@@ -57,7 +57,7 @@ h1, h2, h3, p, a, button {
 	color: #FFFFFF;
 	text-align: center;
 }
-a:hover {
+a:hover, #name:hover {
 	color: #000000;
 }
 
