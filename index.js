@@ -15,7 +15,7 @@ function loadExternalHTMLs(targetIDs) {
         loadExternalHTML(targetID);
     }
 }
-function togglemenu() {
+function toggleMenu() {
     if (navigationBar.style.display == "") {
         navigationBar.style.display = "block";
         document.getElementById("header").style.height="800px";
