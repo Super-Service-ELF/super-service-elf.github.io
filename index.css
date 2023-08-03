@@ -110,6 +110,10 @@ nav a {
 
 #mobileMenuButton {
 	display: none;
+	cursor: pointer;
+	position: absolute;
+	top: 32px;
+	right: 32px;
 }
 
 @media screen and (max-width: 1152px) {
@@ -165,11 +169,6 @@ nav a {
 	}
 	#mobileMenuButton {
 		display: block;
-		position: absolute;
-		top: 20px;
-		right: 30px;
-		cursor: pointer;
-		user-select: none;
 	}
 	nav a {
 		top: 0;
