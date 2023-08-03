@@ -15,6 +15,7 @@ function loadExternalHTMLs(targetIDs) {
         loadExternalHTML(targetID);
     }
 }
+
 function toggleMenu() {
     if (navigationBar.style.display == "") {
         navigationBar.style.display = "block";
@@ -26,9 +27,8 @@ function toggleMenu() {
         document.getElementById("mobileMenuButton").style.animation="rotate0 0.3s ease-out";
     }
 }
-
 window.onresize = function () {
-    if (window.innerWidth > 1400) {
+    if (window.innerWidth > 1152) {
         navigationBar.style.display = "";
         document.getElementById("header").style.height="180px";
         document.getElementById("mobileMenuButton").style.animation="rotate0 0s ease-out";
