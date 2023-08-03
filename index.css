@@ -113,7 +113,7 @@ nav a {
 	display: none;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1152px) {
 
 	nav ul {
 		width: 100%;
