@@ -156,9 +156,6 @@ nav a {
 	}
 
 	#button {
-		height: fit-content;
-		width: 355px;
-		border-radius: 40px;
 		position: fixed;
 		bottom: 20px;
 		right: auto;
