@@ -19,11 +19,11 @@ function toggleMenu() {
     if (navigationBar.style.display == "") {
         navigationBar.style.display = "block";
         document.getElementById("header").style.height="800px";
-        document.getElementById("mobile-menu-button").style.animation="rotate90 0.3s ease-out forwards";
+        document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
     }   else {
         navigationBar.style.display = "";
         document.getElementById("header").style.height="180px";
-        document.getElementById("mobile-menu-button").style.animation="rotate0 0.3s ease-out";
+        document.getElementById("mobileMenuButton").style.animation="rotate0 0.3s ease-out";
     }
 }
 
@@ -31,7 +31,7 @@ window.onresize = function () {
     if (window.innerWidth > 1400) {
         navigationBar.style.display = "";
         document.getElementById("header").style.height="180px";
-        document.getElementById("mobile-menu-button").style.animation="rotate0 0s ease-out";
+        document.getElementById("mobileMenuButton").style.animation="rotate0 0s ease-out";
 
     }
 }
