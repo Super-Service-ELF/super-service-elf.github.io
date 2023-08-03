@@ -109,7 +109,7 @@ nav a {
 }
 
 
-#mobile-menu-button {
+#mobileMenuButton {
 	display: none;
 }
 
@@ -165,7 +165,7 @@ nav a {
 		transform: translateX(-50%);
 		z-index: 100;
 	}
-	#mobile-menu-button {
+	#mobileMenuButton {
 		display: block;
 		position: absolute;
 		top: 20px;
