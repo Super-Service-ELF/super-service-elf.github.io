@@ -100,8 +100,8 @@ nav a {
 
 #button {
 	background-color: #004F80;
-	border-radius: 40px;
 	padding: 15px;
+	border-radius: 32px;
 	position: absolute;
 	top: 25px;
 	left: 230px;
