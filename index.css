@@ -51,7 +51,6 @@ h3, #navigationBar a {
 }
 p, a {
 	font-size: 16px;
-	padding: 8px;
 }
 
 h1, h2, h3, p, a, button {
@@ -73,9 +72,6 @@ header {
 	height: 180px;
 }
 
-footer {
-    padding: 10px;
-}
 
 nav ul {
 	list-style: none;
@@ -89,10 +85,6 @@ nav ul {
 	right: 20px;
 	padding-top: 30px;
 	float: right;
-}
-
-nav {
-	margin-bottom: 0;
 }
 
 li {
@@ -116,19 +108,6 @@ nav a {
 	left: 230px;
 }
 
-footer h2 {
-	padding-bottom: 20px;
-}
-
-footer p {
-	margin: 0px;
-	padding: 7px;
-}
-
-
-#menu ul li {
-	display: inline-block;
-}
 
 #mobile-menu-button {
 	display: none;
