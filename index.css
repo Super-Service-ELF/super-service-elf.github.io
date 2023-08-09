@@ -64,7 +64,7 @@ a:hover, #name:hover {
 header, footer {
 	background-color:#009DFF;
 }
-div {
+.text {
 	background-color: #80CEFF;
 }
 
