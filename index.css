@@ -24,7 +24,6 @@
 body {
 	margin: 0;
     padding: 0;
-	background-color: #009DFF;
 }
 
 #logo {
@@ -62,6 +61,7 @@ a:hover, #name:hover {
 }
 
 header, footer {
+body, header, footer {
 	background-color:#009DFF;
 }
 .text {
