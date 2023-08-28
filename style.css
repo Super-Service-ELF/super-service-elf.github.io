@@ -57,6 +57,10 @@ h1, h2, h3, p, a, button {
 	color: #FFFFFF;
 	text-align: center;
 }
+.text a {
+	text-decoration: underline;
+	color: #004F80;
+}
 a:hover, #name:hover {
 	color: #000000;
 }
