@@ -49,12 +49,12 @@ h3, #navigationBar a {
 	font-size: 24px;
 	padding: 12px;
 }
-p, li {
+p {
 	font-size: 16px;
 	padding: 8px;
 }
 
-h1, h2, h3, p, a, button, li {
+h1, h2, h3, p, a, button {
 	color: #FFFFFF;
 	text-align: center;
 }
