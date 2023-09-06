@@ -92,7 +92,7 @@ nav ul {
 	float: right;
 }
 
-li {
+nav li {
 	display: inline;
 }
 
@@ -131,7 +131,7 @@ nav a {
 		display: none;
 	}
 
-	nav ul li {
+	nav li {
 		display: block;
 		margin-top: 10px;
 		margin-bottom: 10px;
