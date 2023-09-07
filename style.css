@@ -6,7 +6,6 @@
 	font-family: "GothamRounded";
 	src: url("/fonts/GothamRounded.otf");
 }
-
 @keyframes rotate90 {
 	from {transform: rotate(0deg);}
 	to {transform: rotate(90deg);}
@@ -15,13 +14,11 @@
 	from {transform: rotate(90deg);}
 	to {transform: rotate(180deg);}
 }
-
 * {
 	font-family: "GothamRounded";
 	text-decoration: none;
 	margin: 0px;
 }
-
 #logo {
 	margin: 18px;
 	float: left;
@@ -31,7 +28,6 @@
 h1, h2, h3, #button, #name {
 	font-family: "GothamRounded-Bold";
 }
-
 h1, #name {
 	font-size: 48px;
 	padding: 24px;
@@ -48,7 +44,6 @@ p {
 	font-size: 16px;
 	padding: 8px;
 }
-
 h1, h2, h3, p, a, button {
 	color: #FFFFFF;
 	text-align: center;
@@ -60,22 +55,18 @@ main a {
 a:hover, #name:hover {
 	color: #000000;
 }
-
 body, footer {
 	background-color: #009DFF;
 }
 main {
 	background-color: #80CEFF;
 }
-
 header {
 	height: 180px;
 }
 div {
 	padding: 32px;
 }
-
-
 form div {
 	padding: 0px;
 }
@@ -85,25 +76,21 @@ nav ul {
 	margin: 0;
 	display: inline;
 }
-
 #name {
 	position: absolute;
 	right: 20px;
 	padding-top: 30px;
 	float: right;
 }
-
 nav li {
 	display: inline;
 }
-
 nav a {
 	display: inline;
 	position: relative;
 	left: 30px;
 	top: 125px;
 }
-
 #button {
 	background-color: #004F80;
 	padding: 15px;
@@ -112,8 +99,6 @@ nav a {
 	top: 25px;
 	left: 230px;
 }
-
-
 #mobileMenuButton {
 	display: none;
 	cursor: pointer;
@@ -121,9 +106,7 @@ nav a {
 	top: 32px;
 	right: 32px;
 }
-
 @media screen and (max-width: 1152px) {
-
 	nav ul {
 		width: 100%;
 		position: absolute;
@@ -131,13 +114,11 @@ nav a {
 		padding-top: 0;
 		display: none;
 	}
-
 	nav li {
 		display: block;
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
-
 	#name {
 		display: none;
 	}
@@ -153,14 +134,12 @@ nav a {
 		width: 144px;
 		width: auto;
 	}
-
 	header {
 		height: 180px;
 		width: 100%;
 		margin-top: 0px;
 		transition: 0.5s;
 	}
-
 	#button {
 		position: fixed;
 		bottom: 20px;
@@ -176,5 +155,4 @@ nav a {
 	nav a {
 		top: 0;
 	}
-
   }

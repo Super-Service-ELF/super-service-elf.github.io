@@ -40,6 +40,5 @@ window.onresize = function () {
 		navigationBar.style.display = "";
 		document.getElementById("header").style.height="180px";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0s ease-out";
-
 	}
 }
