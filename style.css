@@ -22,11 +22,6 @@
 	margin: 0px;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-}
-
 #logo {
 	margin: 18px;
 	float: left;
@@ -75,6 +70,9 @@ main {
 
 header {
 	height: 180px;
+}
+div {
+	padding: 32px;
 }
 
 
