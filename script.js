@@ -15,7 +15,15 @@ function loadExternalHTMLs(targetIDs) {
         loadExternalHTML(targetID);
     }
 }
-
+function addURLToLink() {
+    var targetID = "link";
+    var target = document.getElementById(targetID);
+    var site = window.location.href;
+    var oldLink = target.href;
+	console.log(oldLink)
+    var newLink = oldLink.replace("URL", site);
+    target.href = newLink;
+}
 function toggleMenu() {
     if (navigationBar.style.display == "") {
         navigationBar.style.display = "block";
