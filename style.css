@@ -58,7 +58,7 @@ h1, h2, h3, p, a, button {
 	color: #FFFFFF;
 	text-align: center;
 }
-.text a {
+main a {
 	text-decoration: underline;
 	color: #004F80;
 }
@@ -66,10 +66,10 @@ a:hover, #name:hover {
 	color: #000000;
 }
 
-body, header, footer {
-	background-color:#009DFF;
+body, footer {
+	background-color: #009DFF;
 }
-.text {
+main {
 	background-color: #80CEFF;
 }
 
