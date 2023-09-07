@@ -60,6 +60,7 @@ body, footer {
 }
 main {
 	background-color: #80CEFF;
+	line-height: 200%;
 }
 header {
 	height: 180px;
