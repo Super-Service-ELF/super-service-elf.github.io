@@ -64,7 +64,7 @@ main {
 header {
 	height: 180px;
 }
-div {
+header, div,  footer{
 	padding: 32px;
 }
 form div {
