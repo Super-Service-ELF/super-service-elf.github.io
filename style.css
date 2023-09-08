@@ -131,9 +131,8 @@ nav a {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
-		height: 144px;
-		width: 144px;
-		width: auto;
+		width: 128px;
+		height: 128px;
 	}
 	header {
 		height: 180px;
