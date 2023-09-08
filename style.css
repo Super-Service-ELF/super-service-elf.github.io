@@ -52,7 +52,7 @@ main a {
 	text-decoration: underline;
 	color: #004F80;
 }
-a:hover, #name:hover {
+a:hover {
 	color: #000000;
 }
 body, footer {
