@@ -64,9 +64,14 @@ main {
 }
 header {
 	height: 180px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
-header, div,  footer{
+div, footer {
 	padding: 32px;
+}
+.sslcontact {
+	padding: 0px;
 }
 form div {
 	padding: 0px;
