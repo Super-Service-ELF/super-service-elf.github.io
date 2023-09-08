@@ -20,7 +20,6 @@ function addURLToLink() {
 	var target = document.getElementById(targetID);
 	var site = window.location.href;
 	var oldLink = target.href;
-	console.log(oldLink)
 	var newLink = oldLink.replace("URL", site);
 	target.href = newLink;
 }
