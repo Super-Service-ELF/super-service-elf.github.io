@@ -14,6 +14,7 @@ function loadExternalHTMLs(targetIDs) {
 	for (let targetID of targetIDs) {
 		loadExternalHTML(targetID);
 	}
+	setTimeout(updateWindow, 25);	
 }
 function addURLToLink() {
 	var targetID = "link";
@@ -26,18 +27,24 @@ function addURLToLink() {
 function toggleMenu() {
 	if (navigationBar.style.display == "") {
 		navigationBar.style.display = "block";
-		document.getElementById("header").style.height="800px";
+		document.getElementById("header").style.height="600px";
 		document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
 	}   else {
 		navigationBar.style.display = "";
-		document.getElementById("header").style.height="180px";
+		document.getElementById("header").style.height="300px";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0.3s ease-out";
 	}
 }
-window.onresize = function () {
-	if (window.innerWidth > 1152) {
-		navigationBar.style.display = "";
+function updateWindow() {
+	if (window.innerWidth > 1090) {
+		document.getElementById("button").innerHTML = "Auftrag aufgeben"
+		document.getElementById("navigationBar").style.display = "";
 		document.getElementById("header").style.height="180px";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0s ease-out";
 	}
+	else {
+		document.getElementById("button").innerHTML = "Auftrag"
+		document.getElementById("header").style.height="300px";
+	}
 }
+window.onresize = updateWindow
