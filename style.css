@@ -107,11 +107,11 @@ nav a {
 	top: 32px;
 	right: 32px;
 }
-@media screen and (max-width: 1152px) {
+@media screen and (max-width: 1090px) {
 	nav ul {
 		width: 100%;
 		position: absolute;
-		top:144px;
+		top: 400px;
 		padding-top: 0;
 		display: none;
 	}
@@ -124,9 +124,7 @@ nav a {
 	}
 	#logo {
 		display: block;
-		padding: 10px;
 		float: none;
-		margin: 0;
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
@@ -134,19 +132,16 @@ nav a {
 		height: 128px;
 	}
 	header {
-		height: 180px;
+		height: 300px;
 		width: 100%;
 		margin-top: 0px;
 		transition: 0.25s;
 	}
 	#button {
-		position: fixed;
-		bottom: 20px;
-		right: auto;
-		top: auto;
+		position: absolute;
+		top: 256px;
 		left: 50%;
 		transform: translateX(-50%);
-		z-index: 100;
 	}
 	#mobileMenuButton {
 		display: block;
