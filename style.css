@@ -117,8 +117,7 @@ nav a {
 	}
 	nav li {
 		display: block;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin: 10px;
 	}
 	#name {
 		display: none;
