@@ -137,7 +137,7 @@ nav a {
 		height: 180px;
 		width: 100%;
 		margin-top: 0px;
-		transition: 0.5s;
+		transition: 0.25s;
 	}
 	#button {
 		position: fixed;
