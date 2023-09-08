@@ -19,33 +19,33 @@
 	text-decoration: none;
 	margin: 0px;
 }
-#logo {
-	margin: 18px;
-	float: left;
-	width: 128px;
-	height: 128px;
-}
 h1, h2, h3, #button, #name {
 	font-family: "GothamRounded-Bold";
 }
 h1, #name {
 	font-size: 48px;
-	padding: 24px;
+	padding: 32px;
 }
 h2, #button {
 	font-size: 32px;
 	padding: 16px;
 }
-h3, #navigationBar a {
+h3 {
 	font-size: 24px;
 	padding: 12px;
+}
+#navigationBar {
+	font-size: 24px;
+	padding: 32px;
+}
+#navigationBar a {
+	padding-right: 16px;
 }
 p {
 	font-size: 16px;
 	padding: 8px;
 }
 h1, h2, h3, p, a, button {
-	color: #FFFFFF;
 	text-align: center;
 }
 main a {
@@ -55,16 +55,20 @@ main a {
 a:hover {
 	color: #000000;
 }
-body, footer {
+body {
 	background-color: #009DFF;
+	line-height: 200%;
+}
+header, footer, a {
+	color: #FFFFFF;
 }
 main {
 	background-color: #80CEFF;
-	line-height: 200%;
+	color: #000000;
 }
 header {
 	height: 180px;
-	padding-top: 32px;
+	padding-top: 16px;
 	padding-bottom: 32px;
 }
 div, footer {
@@ -84,9 +88,21 @@ nav ul {
 }
 #name {
 	position: absolute;
-	right: 20px;
-	padding-top: 30px;
+	top: 75px;
+}
+#logo {
+	position: absolute;
+	left: 395px;
+	width: 128px;
+	height: 128px;
+}
+#button {
+	background-color: #004F80;
+	border-radius: 32px;
+	position: absolute;
 	float: right;
+	right: 10px;
+	top: 85px;
 }
 nav li {
 	display: inline;
@@ -94,16 +110,7 @@ nav li {
 nav a {
 	display: inline;
 	position: relative;
-	left: 30px;
-	top: 125px;
-}
-#button {
-	background-color: #004F80;
-	padding: 15px;
-	border-radius: 32px;
-	position: absolute;
-	top: 25px;
-	left: 230px;
+	top: 150px;
 }
 #mobileMenuButton {
 	display: none;
@@ -112,7 +119,7 @@ nav a {
 	top: 32px;
 	right: 32px;
 }
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 834px) {
 	nav ul {
 		width: 100%;
 		position: absolute;
@@ -144,7 +151,7 @@ nav a {
 	}
 	#button {
 		position: absolute;
-		top: 256px;
+		top: 150px;
 		left: 50%;
 		transform: translateX(-50%);
 	}

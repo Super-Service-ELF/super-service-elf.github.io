@@ -31,12 +31,12 @@ function toggleMenu() {
 		document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
 	}   else {
 		navigationBar.style.display = "";
-		document.getElementById("header").style.height="300px";
+		document.getElementById("header").style.height="180px";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0.3s ease-out";
 	}
 }
 function updateWindow() {
-	if (window.innerWidth > 1090) {
+	if (window.innerWidth > 834) {
 		document.getElementById("button").innerHTML = "Auftrag aufgeben"
 		document.getElementById("navigationBar").style.display = "";
 		document.getElementById("header").style.height="180px";
@@ -44,7 +44,7 @@ function updateWindow() {
 	}
 	else {
 		document.getElementById("button").innerHTML = "Auftrag"
-		document.getElementById("header").style.height="300px";
+		document.getElementById("header").style.height="180px";
 	}
 }
 window.onresize = updateWindow
