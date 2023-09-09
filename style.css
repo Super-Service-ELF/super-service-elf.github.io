@@ -93,8 +93,6 @@ nav ul {
 #logo {
 	position: absolute;
 	left: 395px;
-	width: 128px;
-	height: 128px;
 }
 #button {
 	background-color: #004F80;
@@ -140,8 +138,6 @@ nav a {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
-		width: 128px;
-		height: 128px;
 	}
 	header {
 		height: 300px;
