@@ -43,7 +43,6 @@ function redirectFrom404() {
 }
 function toggleMenu() {
 	if (navigationBar.style.height == "") {
-		//navigationBar.style.display = "block";
 		document.getElementById("navigationBar").style.height="225px";
 		document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
 	}   else {
@@ -53,13 +52,13 @@ function toggleMenu() {
 }
 function updateWindow() {
 	if (window.innerWidth > 834) {
-		//document.getElementById("button").innerHTML = "Auftrag aufgeben"
+		document.getElementById("button").innerHTML = "Auftrag aufgeben"
 		document.getElementById("navigationBar").style.height="0px";
 		document.getElementById("header").style.height="180px";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0s ease-out";
 	}
 	else {
-		//document.getElementById("button").innerHTML = "Auftrag"
+		document.getElementById("button").innerHTML = "Auftrag"
 	}
 }
 window.onresize = updateWindow
