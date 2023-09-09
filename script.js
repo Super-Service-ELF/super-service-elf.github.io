@@ -14,7 +14,7 @@ function loadExternalHTMLs(targetIDs) {
 	for (let targetID of targetIDs) {
 		loadExternalHTML(targetID);
 	}
-	setTimeout(updateWindow, 50);	
+	setTimeout(updateWindow, 100);	
 }
 function addURLToLink() {
 	var targetID = "link";
