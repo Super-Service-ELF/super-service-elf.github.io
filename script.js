@@ -61,4 +61,4 @@ function updateWindow() {
 		document.getElementById("button").innerHTML = "Auftrag"
 	}
 }
-window.onresize = updateWindow
+window.onresize = updateWindow;
