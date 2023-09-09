@@ -36,7 +36,7 @@ h3 {
 }
 #navigationBar {
 	font-size: 24px;
-	padding: 32px;
+	padding-left: 32px;
 }
 #navigationBar a {
 	padding-right: 16px;
@@ -93,6 +93,8 @@ nav ul {
 #logo {
 	position: absolute;
 	left: 395px;
+	width: 128px;
+	height: 128px;
 }
 #button {
 	background-color: #004F80;
@@ -121,13 +123,17 @@ nav a {
 	nav ul {
 		width: 100%;
 		position: absolute;
-		top: 400px;
+		top: 225px;
 		padding-top: 0;
-		display: none;
+		/*display: none;*/
+		overflow: hidden;
+		transition: 0.25s;
+		height: 0px;
+		background-color: #009DFF;
 	}
 	nav li {
 		display: block;
-		margin: 10px;
+		margin-top: 10px;
 	}
 	#name {
 		display: none;
@@ -138,18 +144,22 @@ nav a {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
+		width: 128px;
+		height: 128px;
 	}
 	header {
-		height: 300px;
+		height: 180px;
 		width: 100%;
 		margin-top: 0px;
-		transition: 0.25s;
+		transition: 1.25s;
+		background-color: #009DFF;
 	}
 	#button {
 		position: absolute;
 		top: 150px;
 		left: 50%;
 		transform: translateX(-50%);
+		align-self: center;
 	}
 	#mobileMenuButton {
 		display: block;
