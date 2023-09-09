@@ -51,7 +51,7 @@ h1, h2, h3, p, a, button {
 main a {
 	text-decoration: underline;
 }
-a:hover {
+a:not(#button):hover {
 	color: #004F80;
 }
 body {
