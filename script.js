@@ -1,3 +1,4 @@
+const redirectPages = [{right:"über", aliases:["ueber","uber","about"]},{right:"", aliases:["start","home","super"]},{right:"newsletter-archiv", aliases:["archiv","newsletterarchiv","archiv-newsletter","archivnewsletter"]}]
 function loadExternalHTML(targetID) {
 	var url = "/content/" + targetID + ".html";
 	var xhr = new XMLHttpRequest();
@@ -31,26 +32,34 @@ function addURLToLink() {
 	var newLink = oldLink.replace("URL", site);
 	target.href = newLink;
 }
+function redirectFrom404() {
+	for (let page in redirectPages) {
+		for (let alias in redirectPages[page]["aliases"]) {
+			if ("/"+redirectPages[page]["aliases"][alias]+"/" == window.location.pathname) {
+				window.location.pathname = redirectPages[page]["right"]
+			}
+		}
+	}
+}
 function toggleMenu() {
-	if (navigationBar.style.display == "") {
-		navigationBar.style.display = "block";
-		document.getElementById("header").style.height="600px";
+	if (navigationBar.style.height == "") {
+		//navigationBar.style.display = "block";
+		document.getElementById("navigationBar").style.height="225px";
 		document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
 	}   else {
-		navigationBar.style.display = "";
-		document.getElementById("header").style.height="180px";
+		document.getElementById("navigationBar").style.height="";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0.3s ease-out";
 	}
 }
 function updateWindow() {
 	if (window.innerWidth > 834) {
-		document.getElementById("button").innerHTML = "Auftrag aufgeben"
-		document.getElementById("navigationBar").style.display = "";
+		//document.getElementById("button").innerHTML = "Auftrag aufgeben"
+		document.getElementById("navigationBar").style.height="0px";
 		document.getElementById("header").style.height="180px";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0s ease-out";
 	}
 	else {
-		document.getElementById("button").innerHTML = "Auftrag"
+		//document.getElementById("button").innerHTML = "Auftrag"
 	}
 }
 window.onresize = updateWindow
