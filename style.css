@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "GothamRounded-Bold";
-	src: url("/fonts/GothamRounded-Bold.otf");
+	src: url("/fonts/GothamRounded-Bold.woff2");
 }
 @font-face {
 	font-family: "GothamRounded";
-	src: url("/fonts/GothamRounded.otf");
+	src: url("/fonts/GothamRounded.woff2");
 }
 @keyframes rotate90 {
 	from {transform: rotate(0deg);}
