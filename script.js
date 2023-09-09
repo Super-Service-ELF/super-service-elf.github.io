@@ -34,8 +34,11 @@ function addURLToLink() {
 }
 function redirectFrom404() {
 	for (let page in redirectPages) {
+		console.log(redirectPages[page])
+		console.log(redirectPages[page]["aliases"])
 		for (let alias in redirectPages[page]["aliases"]) {
 			if ("/"+redirectPages[page]["aliases"][alias]+"/" == window.location.pathname) {
+				console.log(redirectPages[page]["aliases"][alias])
 				window.location.pathname = redirectPages[page]["right"]
 			}
 		}
