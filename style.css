@@ -85,6 +85,7 @@ nav ul {
 	padding: 0;
 	margin: 0;
 	display: inline;
+	height: 0;
 }
 #name {
 	position: absolute;
@@ -93,6 +94,8 @@ nav ul {
 #logo {
 	position: absolute;
 	left: 395px;
+	width: 128px;
+	height: 128px;
 }
 #button {
 	background-color: #004F80;
@@ -126,7 +129,6 @@ nav a {
 		/*display: none;*/
 		overflow: hidden;
 		transition: 0.25s;
-		height: 0px;
 		background-color: #009DFF;
 	}
 	nav li {
