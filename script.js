@@ -44,7 +44,6 @@ function updateWindow() {
 	}
 	else {
 		document.getElementById("button").innerHTML = "Auftrag"
-		document.getElementById("header").style.height="180px";
 	}
 }
 window.onresize = updateWindow
