@@ -50,9 +50,10 @@ h1, h2, h3, p, a, button {
 }
 main a {
 	text-decoration: underline;
+	color: #004F80;
 }
 a:hover {
-	color: #004F80;
+	color: #000000;
 }
 body {
 	background-color: #009DFF;
