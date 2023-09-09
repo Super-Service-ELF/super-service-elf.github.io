@@ -20,7 +20,7 @@ function tryUpdateWindow() {
 	try {
 		updateWindow();
 	} catch {
-		setTimeout(tryUpdateWindow, 8);
+		setTimeout(tryUpdateWindow, 1);
 	}
 }  
 function addURLToLink() {
