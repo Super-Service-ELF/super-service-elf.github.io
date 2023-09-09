@@ -128,7 +128,7 @@ nav a {
 		padding-top: 0;
 		/*display: none;*/
 		overflow: hidden;
-		transition: 0.25s;
+		transition: 0.75s;
 		background-color: #009DFF;
 	}
 	#navigationBar {
@@ -155,7 +155,6 @@ nav a {
 		height: 180px;
 		width: 100%;
 		margin-top: 0px;
-		transition: 1.25s;
 		background-color: #009DFF;
 	}
 	#button {
