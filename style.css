@@ -131,9 +131,13 @@ nav a {
 		transition: 0.25s;
 		background-color: #009DFF;
 	}
+	#navigationBar {
+		padding: 0;
+	}
 	nav li {
 		display: block;
 		margin-top: 10px;
+		padding-left: 32px;
 	}
 	#name {
 		display: none;
