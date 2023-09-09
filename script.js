@@ -47,7 +47,6 @@ function toggleMenu() {
 		document.getElementById("navigationBar").style.height="225px";
 		document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
 	}   else {
-		console.log("hi")
 		document.getElementById("navigationBar").style.height="";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0.3s ease-out";
 	}
