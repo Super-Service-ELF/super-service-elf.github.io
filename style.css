@@ -73,9 +73,6 @@ header {
 div:not(#sslcontactholder, #sslcontactholder *), footer {
 	padding: 32px;
 }
-form div {
-	padding: 0px;
-}
 nav ul {
 	list-style: none;
 	padding: 0;
