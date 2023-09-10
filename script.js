@@ -1,4 +1,4 @@
-const redirectPages = [{right: "über", aliases: ["ueber", "uber", "about"]}, {right: "", aliases: ["start", "home", "super"]}, {right: "newsletter-archiv", aliases: ["archiv", "newsletterarchiv", "archiv-newsletter", "archivnewsletter", "elf-newsletter-archiv"]}, {right: "newsletter", aliases: ["elf-newsletter"]}]
+const redirectPages = [{right: "über", aliases: ["ueber", "uber", "about"]}, {right: "", aliases: ["start", "home", "super"]}, {right: "newsletter-archiv", aliases: ["archiv", "newsletterarchiv", "elf-newsletter-archiv", "elfnewsletterarchiv"]}, {right: "newsletter", aliases: ["elf-newsletter", "elfnewsletter"]}, {right: "feedback", aliases: ["bewerten", "bewertung"]}]
 function loadExternalHTML(targetID) {
 	var url = "/content/" + targetID + ".html";
 	var xhr = new XMLHttpRequest();
