@@ -70,7 +70,7 @@ header {
 	padding-top: 16px;
 	padding-bottom: 32px;
 }
-div:not(#sslcontactholder, .sslcontact), footer {
+div:not(#sslcontactholder, #sslcontactholder *), footer {
 	padding: 32px;
 }
 form div {
