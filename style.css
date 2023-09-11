@@ -18,7 +18,7 @@
 	font-family: "GothamRounded";
 	margin: 0px;
 }
-h1, h2, h3, #button, #name {
+h1, h2, h2 a, h3, #button, #name {
 	font-family: "GothamRounded-Bold";
 }
 h1, #name {
@@ -57,10 +57,10 @@ body {
 	background-color: #009DFF;
 	line-height: 200%;
 }
-header, footer, a {
+header *, footer *, main a:not(h2 a) {
 	color: #FFFFFF;
 }
-main {
+main , main a{
 	background-color: #80CEFF;
 	color: #000000;
 }
