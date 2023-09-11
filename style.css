@@ -16,7 +16,6 @@
 }
 * {
 	font-family: "GothamRounded";
-	text-decoration: none;
 	margin: 0px;
 }
 h1, h2, h3, #button, #name {
@@ -48,8 +47,8 @@ p {
 h1, h2, h3, p, a, button {
 	text-align: center;
 }
-main a {
-	text-decoration: underline;
+*:not(main p a) {
+	text-decoration: none;
 }
 a:not(#button):hover {
 	color: #004F80;
