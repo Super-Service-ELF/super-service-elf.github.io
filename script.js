@@ -23,7 +23,7 @@ function tryUpdateWindow() {
 	} catch {
 		setTimeout(tryUpdateWindow, 1);
 	}
-}  
+}
 function addURLToLink() {
 	var targetID = "link";
 	var target = document.getElementById(targetID);
@@ -46,7 +46,8 @@ function toggleMenu() {
 		
 		document.getElementById("navigationBar").style.height="225px";
 		document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
-	}   else {
+	}
+	else {
 		document.getElementById("navigationBar").style.height="";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0.3s ease-out";
 	}
