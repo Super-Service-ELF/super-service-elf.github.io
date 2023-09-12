@@ -55,9 +55,11 @@ a:not(#button):hover {
 }
 body {
 	background-color: #009DFF;
+}
+main *:not(#sslcontactholder *) {
 	line-height: 200%;
 }
-header *, footer *, main a:not(h2 a) {
+header *, footer *, main p a {
 	color: #FFFFFF;
 }
 main, main a {
@@ -81,7 +83,7 @@ nav ul {
 }
 #name {
 	position: absolute;
-	top: 75px;
+	top: 55px;
 }
 #logo {
 	position: absolute;
