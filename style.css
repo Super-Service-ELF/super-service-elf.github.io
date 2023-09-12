@@ -15,11 +15,11 @@
 	to {transform: rotate(180deg);}
 }
 * {
-	font-family: "GothamRounded";
+	font-family: "GothamRounded" !important;
 	margin: 0px;
 }
 h1, h2, h3 {
-	font-family: "GothamRounded-Bold";
+	font-family: "GothamRounded-Bold" !important;
 }
 h1 {
 	font-size: 48px;
