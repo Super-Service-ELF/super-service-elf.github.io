@@ -60,7 +60,7 @@ body {
 header *, footer *, main a:not(h2 a) {
 	color: #FFFFFF;
 }
-main , main a {
+main, main a {
 	background-color: #80CEFF;
 	color: #000000;
 }
