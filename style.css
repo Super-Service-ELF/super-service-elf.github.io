@@ -18,14 +18,14 @@
 	font-family: "GothamRounded";
 	margin: 0px;
 }
-h1 a, h2, h2 a, h3, #button, #name {
+h1, h2, h3 {
 	font-family: "GothamRounded-Bold";
 }
-h1, #name {
+h1 {
 	font-size: 48px;
 	padding: 32px;
 }
-h2, #button {
+h2 {
 	font-size: 32px;
 	padding: 16px;
 }
