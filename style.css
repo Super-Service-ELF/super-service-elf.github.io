@@ -120,7 +120,6 @@ nav a {
 		position: absolute;
 		top: 225px;
 		padding-top: 0;
-		/*display: none;*/
 		overflow: hidden;
 		transition: 0.75s;
 		background-color: #009DFF;
