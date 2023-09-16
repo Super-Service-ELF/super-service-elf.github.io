@@ -136,11 +136,10 @@ nav a {
 		display: none;
 	}
 	#logo {
-		display: block;
-		float: none;
 		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
+		left: unset;
+		right: 50%;
+		transform: translateX(50%);
 		width: 128px;
 		height: 128px;
 	}
@@ -152,9 +151,9 @@ nav a {
 	}
 	#button {
 		position: absolute;
+		right: 50%;
+		transform: translateX(50%);
 		top: 150px;
-		left: 50%;
-		transform: translateX(-50%);
 	}
 	#mobileMenuButton {
 		display: block;
