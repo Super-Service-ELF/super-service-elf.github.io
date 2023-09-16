@@ -23,15 +23,18 @@ h1, h2, h3 {
 }
 h1 {
 	font-size: 48px;
-	padding: 32px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 h2 {
 	font-size: 32px;
-	padding: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 h3 {
 	font-size: 24px;
-	padding: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 #navigationBar {
 	font-size: 24px;
@@ -42,7 +45,8 @@ h3 {
 }
 p {
 	font-size: 16px;
-	padding: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 h1, h2, h3, p, a {
 	text-align: center;
@@ -73,7 +77,8 @@ header {
 	padding-bottom: 32px;
 }
 div:not(#sslcontactholder, #sslcontactholder *), footer {
-	padding: 32px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 nav ul {
 	list-style: none;
@@ -99,6 +104,7 @@ nav ul {
 	float: right;
 	right: 10px;
 	top: 85px;
+	padding: 16px;
 }
 nav li {
 	display: inline;
