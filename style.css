@@ -17,6 +17,7 @@
 * {
 	font-family: "GothamRounded" !important;
 	margin: 0px;
+	word-wrap: break-word;
 }
 h1, h2, h3 {
 	font-family: "GothamRounded-Bold" !important;
