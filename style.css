@@ -55,6 +55,7 @@ a:not(#button):hover {
 }
 body {
 	background-color: #009DFF;
+	min-width: 320px;
 }
 main *:not(#sslcontactholder *) {
 	line-height: 200%;
