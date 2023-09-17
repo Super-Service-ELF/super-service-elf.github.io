@@ -152,6 +152,7 @@ nav a {
 		right: 50%;
 		transform: translateX(50%);
 		top: 0px;
+		padding-left: 0px;
 	}
 	#logo {
 		position: absolute;
