@@ -90,11 +90,12 @@ nav ul {
 }
 #name {
 	position: absolute;
-	top: 55px;
+	top: 64px;
+	padding-left: 24px;
 }
 #logo {
 	position: absolute;
-	left: 395px;
+	left: 385px;
 	width: 128px;
 	height: 128px;
 }
