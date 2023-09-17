@@ -127,8 +127,7 @@ nav a {
 	nav ul {
 		width: 100%;
 		position: absolute;
-		top: 225px;
-		padding-top: 0;
+		top: 345px;
 		overflow: hidden;
 		transition: 0.75s;
 		background-color: #009DFF;
@@ -142,7 +141,10 @@ nav a {
 		padding-left: 32px;
 	}
 	#name {
-		display: none;
+		position: absolute;
+		right: 50%;
+		transform: translateX(50%);
+		top: 0px;
 	}
 	#logo {
 		position: absolute;
@@ -151,18 +153,17 @@ nav a {
 		transform: translateX(50%);
 		width: 128px;
 		height: 128px;
+		top: 128px;
 	}
 	header {
-		height: 180px;
+		height: 300px;
 		width: 100%;
-		margin-top: 0px;
-		background-color: #009DFF;
 	}
 	#button {
 		position: absolute;
 		right: 50%;
 		transform: translateX(50%);
-		top: 150px;
+		top: 270px;
 	}
 	#mobileMenuButton {
 		display: block;
