@@ -63,7 +63,6 @@ a:not(#button):hover {
 body {
 	background-color: #009DFF;
 	min-width: 320px;
-	overflow: overlay;
 }
 ::-webkit-scrollbar {
 	background: transparent;
