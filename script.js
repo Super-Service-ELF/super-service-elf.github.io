@@ -34,8 +34,16 @@ function updateWindow() {
 		document.getElementById("button").innerHTML = "Auftrag"
 	}
 }
+function tryAddURLToLink() {
+	try {
+		addURLToLink();
+	}
+	catch {
+		setTimeout(tryAddURLToLink, 1);
+	}
+}
 function addURLToLink() {
-	var targetID = "link";
+	var targetID = "404Link";
 	var target = document.getElementById(targetID);
 	var site = window.location.href;
 	var oldLink = target.href;
