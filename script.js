@@ -20,7 +20,8 @@ function loadExternalHTMLs(targetIDs) {
 function tryUpdateWindow() {
 	try {
 		updateWindow();
-	} catch {
+	}
+	catch {
 		setTimeout(tryUpdateWindow, 1);
 	}
 }
