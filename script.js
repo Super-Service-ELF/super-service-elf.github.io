@@ -12,7 +12,7 @@ function loadExternalHTML(targetID) {
 			var target = document.getElementById(targetID);
 			target.innerHTML = xhr.responseText;
 		}
-	};
+	}
 	xhr.open("GET", url, true);
 	xhr.send();
 }
@@ -27,11 +27,11 @@ function tryUpdateWindow() {
 }
 function updateWindow() {
 	if (window.innerWidth > 834) {
-		document.getElementById("button").innerHTML = "Auftrag aufgeben"
+		document.getElementById("button").innerHTML = "Auftrag aufgeben";
 		document.getElementById("mobileMenuButton").style.animation="rotate0 0s ease-out";
 	}
 	else {
-		document.getElementById("button").innerHTML = "Auftrag"
+		document.getElementById("button").innerHTML = "Auftrag";
 	}
 }
 function tryAddURLToLink() {
@@ -51,18 +51,17 @@ function addURLToLink() {
 	target.href = newLink;
 }
 function redirectFrom404() {
-	const redirectPages = [{right: "über", aliases: ["ueber", "uber", "about"]}, {right: "", aliases: ["start", "home", "super"]}, {right: "newsletter-archiv", aliases: ["archiv", "newsletterarchiv", "elf-newsletter-archiv", "elfnewsletterarchiv"]}, {right: "newsletter", aliases: ["elf-newsletter", "elfnewsletter"]}, {right: "feedback", aliases: ["bewerten", "bewertung"]}]
+	const redirectPages = [{right: "über", aliases: ["ueber", "uber", "about"]}, {right: "", aliases: ["start", "home", "super"]}, {right: "newsletter-archiv", aliases: ["archiv", "newsletterarchiv", "elf-newsletter-archiv", "elfnewsletterarchiv"]}, {right: "newsletter", aliases: ["elf-newsletter", "elfnewsletter"]}, {right: "feedback", aliases: ["bewerten", "bewertung"]}];
 	for (let page in redirectPages) {
 		for (let alias in redirectPages[page]["aliases"]) {
 			if ("/"+redirectPages[page]["aliases"][alias]+"/" == window.location.pathname || "/"+redirectPages[page]["aliases"][alias] == window.location.pathname) {
-				window.location.pathname = redirectPages[page]["right"]
+				window.location.pathname = redirectPages[page]["right"];
 			}
 		}
 	}
 }
 function toggleMenu() {
 	if (navigationBar.style.height == "") {
-		
 		document.getElementById("navigationBar").style.height="225px";
 		document.getElementById("mobileMenuButton").style.animation="rotate90 0.3s ease-out forwards";
 	}
