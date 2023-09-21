@@ -1,10 +1,10 @@
-function loadExternalHTMLs(targetIDs) {
+function loadWindow(targetIDs) {
 	for (let targetID of targetIDs) {
-		loadExternalHTML(targetID);
+		loadContent(targetID);
 	}
 	tryUpdateWindow();
 }
-function loadExternalHTML(targetID) {
+function loadContent(targetID) {
 	var url = "/content/" + targetID + ".html";
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
